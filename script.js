@@ -21,6 +21,10 @@ document
 .getElementById("notesContainer")
 .classList.remove("hidden");
 
+document
+.getElementById("openNotesBtn")
+.style.display = "none";
+
 }
 
 /* GALLERY */
