@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Chotuu ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- FLOWERS -->
+<div id="flowers"></div>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+
+<div class="heart-card">
+<h1>Heyyyyy!!! ❤️</h1>
+
+<p>
+I have made something special just for you...
+</p>
+
+<p>
+Excited to see what's inside?? 🌸
+</p>
+
+<button onclick="nextPage(2)">
+Next →
+</button>
+
+</div>
+
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+
+<h2 class="title">
+Tap Here ❤️
+</h2>
+
+<div class="tap-box" onclick="showNotes()">
+Open Notes
+</div>
+
+<div id="notesContainer" class="hidden">
+
+<div class="note">
+Hii chotuu, u are a cutuu 🫶
+</div>
+
+<div class="note">
+U know na that I love you 😁
+</div>
+
+<div class="note">
+Just accept that I'm the smartest 😎
+</div>
+
+<div class="note">
+I will always be there for you 🤥
+</div>
+
+</div>
+
+<button onclick="nextPage(3)">
+Next →
+</button>
+
+</section>
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+
+<div class="photo-card">
+
+<img src="pic1.jpg" alt="photo">
+
+<h2>
+Late night call partner ✨
+</h2>
+
+</div>
+
+<button onclick="nextPage(4)">
+Next →
+</button>
+
+</section>
+
+<!-- PAGE 4 -->
+<section class="page" id="page4">
+
+<div class="photo-card">
+
+<img src="pic2.jpg" alt="photo">
+
+<h2>
+My "deepest secret" keeper ☠️
+</h2>
+
+</div>
+
+<button onclick="nextPage(5)">
+Next →
+</button>
+
+</section>
+
+<!-- PAGE 5 -->
+<section class="page" id="page5">
+
+<h2>
+Solve The Puzzle 🧩
+</h2>
+
+<p>
+Complete the puzzle to unlock next page
+</p>
+
+<div id="puzzleBoard">
+
+<div class="piece" draggable="true" data-index="0"></div>
+<div class="piece" draggable="true" data-index="1"></div>
+<div class="piece" draggable="true" data-index="2"></div>
+
+<div class="piece" draggable="true" data-index="3"></div>
+<div class="piece" draggable="true" data-index="4"></div>
+<div class="piece" draggable="true" data-index="5"></div>
+
+<div class="piece" draggable="true" data-index="6"></div>
+<div class="piece" draggable="true" data-index="7"></div>
+<div class="piece" draggable="true" data-index="8"></div>
+
+</div>
+
+<button id="puzzleNext"
+onclick="nextPage(6)"
+disabled>
+
+Solve Puzzle First 🔒
+
+</button>
+
+</section>
+
+<!-- PAGE 6 -->
+<section class="page" id="page6">
+
+<div class="heart-note">
+You are the cutest girl I have ever met? 🤔
+</div>
+
+<div class="heart-note">
+Dare you to forget the memories we had 🔪
+</div>
+
+<div class="heart-note">
+U are a germ 💎😂
+</div>
+
+<button onclick="nextPage(7)">
+Next →
+</button>
+
+</section>
+<!-- PAGE 7 -->
+<section class="page" id="page7">
+
+<h2 class="title">
+Tap Me ❤️
+</h2>
+
+<div class="tap-box" onclick="showGallery()">
+Open Photos
+</div>
+
+<div id="gallery" class="hidden">
+
+<div class="gallery-grid">
+
+<img src="pic4.jpg" alt="">
+<img src="pic5.jpg" alt="">
+<img src="pic6.jpg" alt="">
+<img src="pic7.jpg" alt="">
+
+</div>
+
+</div>
+
+<button onclick="nextPage(8)">
+Next →
+</button>
+
+</section>
+
+<!-- PAGE 8 -->
+<section class="page" id="page8">
+
+<h2>
+Friendship Quiz 🌸
+</h2>
+
+<div class="quiz-box">
+
+<p>Class when we became friends?</p>
+<input type="text" id="q1">
+
+<p>Who is the smartest among us?</p>
+<input type="text" id="q2">
+
+<p>My favourite colour?</p>
+<input type="text" id="q3">
+
+<button onclick="checkQuiz()">
+Submit Answers
+</button>
+
+<p id="quizResult"></p>
+
+</div>
+
+<button
+id="quizNext"
+onclick="nextPage(9)"
+disabled>
+
+Answer Correctly 🔒
+
+</button>
+
+</section>
+
+<!-- PAGE 9 -->
+<section class="page letter-page" id="page9">
+
+<div class="envelope-container">
+
+<div class="envelope"></div>
+
+<div class="letter">
+
+<h2>For You ❤️</h2>
+
+<p>
+Hiiieeeeeee!!!!!!!
+</p>
+
+<p>
+Hope you're not crying abhi tk...
+Just wanna say thank you for being the most amazing friend I could ever ask for.
+</p>
+
+<p>
+You are truly the most beautiful part of my life.
+Every moment with you is my favourite.
+</p>
+
+<p>
+I never thought I would say this...
+But u means a lot to me.
+</p>
+
+<p>
+Maybe we never share our feelings for each other but deep inside we both know how important we both are for each other.
+</p>
+
+<p>
+Don't know about u 😂 but mere liye toh tu bhut special hai.
+</p>
+
+<p>
+I will keep u with me always ❤️
+</p>
+
+<p>
+Chl chl aage wale page pe jaaaa....
+</p>
+
+</div>
+
+</div>
+
+<button onclick="nextPage(10)">
+Next →
+</button>
+
+</section>
+
+<!-- PAGE 10 -->
+<section class="page letter-page" id="page10">
+
+<div class="letter long-letter">
+
+<h2>One More Thing 🌸</h2>
+
+<p>
+Ab tu soch rhi hogi ye sb aaj kyu toh koi reason thodi na hota h kuch bhi krne ka or fir maine socha ki hamari itne time se baat bhi nhi huiii h toh kuch aisa sa hi bna deti hu😁
+</p>
+
+<p>
+Haa haa I know I'm very talented 😎
+</p>
+
+<p>
+Or jaruri thodi h hum roz baat kre tu apni life mei busy h mei apni mei dono ke pass apni apni problems h dono ke pass dher sara kaam h krne ko kabhi time nhi mil pta jb tu free hoti h mei nhi hoti jb mei hoti hu tb tu nhi hoti tohhh koi baat Nhii na...
+</p>
+
+<p>
+Or tujhe pta h tu mere liye bhut special ho chuki h ye mt sochio ki mei baat nhi kr pati ya hamari baat nhi hoti toh hum hlke halke alg ho jayenge ya Aisa kuch nhiiii aisaa NHI HOGA...
+</p>
+
+<p>
+Tujhe meri vo baate pta h jo aaj tk maine kisi ko nhi batai h or aisi toh bhut sari baate h...
+</p>
+
+<p>
+I know tu expressive h pr mei nhi hu yaar tu bta deti h ab mei nhi bta pati Aisa nhi h ki mujhe batana nhi h pr bs bta nhi pati toh ye mt sochio kabhi ki mei nhi batati toh mei batana chahati nhi hu...
+</p>
+
+<p>
+Maine vo baate 9 saal mei kabhi stuti ko nhi batai fir bhi tujhe btaaa di mei compare nhi kr rhi hu bs bta rhii huu...
+</p>
+
+<p>
+Tum dono hi mere liye equally important ho pr vo ek insaan hota h na ki tum isse sb bta skte without being judged mere liye vo tu h.....
+</p>
+
+<p>
+Chl ab bhut hi gyaaa or yee faltu so chiz pr role apna time khrb mt krioooo 😂😁
+</p>
+
+</div>
+
+<button onclick="nextPage(11)">
+Next →
+</button>
+
+</section>
+
+<!-- PAGE 11 -->
+<section class="page" id="page11">
+
+<div class="bye-card">
+
+<h1>
+Chll Byeeee 👋
+</h1>
+
+<h2>
+Thanks for your not so precious time 🫶😁😚
+</h2>
+
+<p>
+Made with lots of love ❤️
+</p>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
