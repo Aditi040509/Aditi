@@ -230,3 +230,14 @@ alert(
 }
 
 }
+
+document.addEventListener("click", () => {
+
+const music =
+document.getElementById("bgMusic");
+
+if(music){
+music.play();
+}
+
+}, { once:true });
