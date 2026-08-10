@@ -159,7 +159,7 @@ margin-bottom:25px;
 }
 
 .hidden{
-display:none;
+display:none !important;
 }
 
 /* NOTES */
